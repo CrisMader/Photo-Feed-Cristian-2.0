@@ -1,0 +1,71 @@
+body{
+    background-color: grey;
+}
+
+
+.wrapper{
+    width: 600px;
+    min-height: 730px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+}
+
+.photoUser {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+}
+
+.infoUser p {
+    margin: 0; 
+    line-height: 1.2;
+}
+
+.image{
+    max-width: 800px;
+    height: auto;
+}
+
+.image img{
+    max-width: 100%; 
+    height: auto;    
+    display: block;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.saveIcon{
+    margin: 10px;
+    width: 20px;
+}
+.icons{
+   gap: 15px;
+}
+
+.icons i{
+    margin-right: 10px;
+}
+
+.comment{
+    margin: 10px 20px;
+    line-height: 1.4;
+}
